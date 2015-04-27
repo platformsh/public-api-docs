@@ -8,8 +8,6 @@
 
 ```http
 Status: 200 OK
-X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4999
 ```
 ```json
 {
@@ -44,8 +42,6 @@ X-RateLimit-Remaining: 4999
 
 ```http
 Status: 200 OK
-X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4999
 ```
 ```json
 {
@@ -78,19 +74,53 @@ X-RateLimit-Remaining: 4999
 
 ### Parameters
 
-Name|Type|Description
-:---|:---|:----------
-paramname|array|The description of the parameter.
+Name|Type|Required|Description
+:---|:---|:-------|:----------
+project_region|String|True|The machine name of the region where this Platform.sh project is located.
 
 ```json
 {
-  "paramname": [
-    "value1",
-    "value2",
-  ]
+  "project_region": eu_west
 }
 ```
 
+### Response
+
+@TODO
+
 ## Update an existing subscription
 
+> PATCH /subscriptions/:id
+
+### Parameters
+
+Name|Type|Required|Description
+:---|:---|:-------|:----------
+project_region|String|True|The machine name of the region where this Platform.sh project is located.
+
+```json
+{
+  "project_region": eu_west
+}
+```
+
+### Response
+
+```http
+Status: 200 OK
+```
+```json
+{
+    @TODO
+}
+```
+
 ## Delete a subscription
+
+> DELETE /subscriptions/:id
+
+### Response
+
+```http
+Status: 204 No Content
+```
