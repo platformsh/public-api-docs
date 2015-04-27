@@ -10,4 +10,4 @@ It's been generated using the following command:
 
 ```bash
 curl -H "Authorization: Bearer TOKEN" https://marketplace.commerceguys.com/api/platform/subscriptions -X OPTIONS | python -mjson.tool
-``
+```
