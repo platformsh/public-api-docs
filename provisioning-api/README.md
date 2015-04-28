@@ -74,19 +74,51 @@ Status: 200 OK
 
 ### Parameters
 
-Name|Type|Required|Description
-:---|:---|:-------|:----------
-project_region|String|True|The machine name of the region where this Platform.sh project is located.
+Name|Type|Required|Default|Description
+:---|:---|:-------|:------|:----------
+project_region|String|Yes||The machine name of the region where this Platform.sh project is located.
+project_title|String|No|Untitled Project|The initial title of the project.
+plan|String|No|development|The pricing plan for the project ('development', 'standard', 'medium', or 'large').
+activation_callback|Object|No||A callback URL to notify when the subscription has been activated.
+environments|Integer|No|3|The number of environments the project can contain.
+storage|Integer|No|5120|The disk space for each environment on the project, in MiB.
+
 
 ```json
 {
-  "project_region": eu_west
+  "project_region": "eu_west",
+  "plan": "standard",
+  "project_title": "Example Project"
 }
 ```
 
 ### Response
 
-@TODO
+```http
+Status: 200 OK
+```
+
+```json
+{
+    "id": "1234",
+    "status": "requested",
+    "owner": "6e369812-ef06-46f8-8f88-83ff820ef6ac",
+    "plan": "standard",
+    "environments": 3,
+    "storage": 5120,
+    "user_licenses": 1,
+    "project_id": null,
+    "project_title": "Example Project",
+    "project_region":"eu_west",
+    "project_region_label": "EU (West)",
+    "project_ui": null,
+    "_links": {
+        "self": {
+            "href": "https:\/\/marketplace.internal.c-g.io\/api\/platform\/subscriptions\/1234"
+        }
+    }
+}
+```
 
 ## Update an existing subscription
 
@@ -94,13 +126,16 @@ project_region|String|True|The machine name of the region where this Platform.sh
 
 ### Parameters
 
-Name|Type|Required|Description
-:---|:---|:-------|:----------
-project_region|String|True|The machine name of the region where this Platform.sh project is located.
+Name|Type|Description
+:---|:---|:----------
+plan|String|Change the plan for the project.
+environments|Integer|Change the number of environments for the project.
+storage|Integer|Change the disk space for the project (in MiB). The disk space can only be increased, not decreased.
+
 
 ```json
 {
-  "project_region": eu_west
+  "plan": "medium"
 }
 ```
 
@@ -111,7 +146,23 @@ Status: 200 OK
 ```
 ```json
 {
-    @TODO
+    "id": "1234",
+    "status": "active",
+    "owner": "6e369812-ef06-46f8-8f88-83ff820ef6ac",
+    "plan": "medium",
+    "environments": 3,
+    "storage": 5120,
+    "user_licenses": 1,
+    "project_id": null,
+    "project_title": "Example Project",
+    "project_region":"eu_west",
+    "project_region_label": "EU (West)",
+    "project_ui": null,
+    "_links": {
+        "self": {
+            "href": "https:\/\/marketplace.internal.c-g.io\/api\/platform\/subscriptions\/1234"
+        }
+    }
 }
 ```
 
@@ -122,5 +173,6 @@ Status: 200 OK
 ### Response
 
 ```http
-Status: 204 No Content
+Status: 200 OK
 ```
+
