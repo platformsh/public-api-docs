@@ -11,26 +11,20 @@ Status: 200 OK
 ```
 ```json
 {
+    "count": 3,
+    "subscriptions": [
+        // ...
+    ],
     "_links": {
-        "project": {
-            "href": "https://eu.platform.sh/api/projects/azertyuiop"
-        },
         "self": {
-            "href": "https://marketplace.commerceguys.com/api/platform/subscriptions/123"
+            "title": "Self",
+            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions"
+        },
+        "next": {
+            "title": "Next",
+            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions?page=2"
         }
-    },
-    "environments": "3",
-    "id": "123",
-    "owner": "abcd0123-abcd0123-abcd0123-abcd0123-abcd0123",
-    "plan": "medium",
-    "project_id": "azertyuiop",
-    "project_region": "eu_west",
-    "project_region_label": "Europe",
-    "project_title": "My Platform project",
-    "project_ui": "https://eu.platform.sh/#/projects/azertyuiop",
-    "status": "active",
-    "storage": 5120,
-    "user_licenses": "1"
+    }
 }
 ```
 
@@ -45,26 +39,26 @@ Status: 200 OK
 ```
 ```json
 {
+    "id": "1234",
+    "status": "active",
+    "owner": "6e369812-ef06-46f8-8f88-83ff820ef6ac",
+    "plan": "standard",
+    "environments": 3,
+    "storage": 5120,
+    "user_licenses": 1,
+    "project_id": "azertyuiop",
+    "project_title": "Example Project",
+    "project_region":"eu_west",
+    "project_region_label": "EU (West)",
+    "project_ui": "https://eu.platform.sh/#/projects/azertyuiop",
     "_links": {
         "project": {
             "href": "https://eu.platform.sh/api/projects/azertyuiop"
         },
         "self": {
-            "href": "https://marketplace.commerceguys.com/api/platform/subscriptions/123"
+            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions\/1234"
         }
-    },
-    "environments": "3",
-    "id": "123",
-    "owner": "abcd0123-abcd0123-abcd0123-abcd0123-abcd0123",
-    "plan": "medium",
-    "project_id": "azertyuiop",
-    "project_region": "eu_west",
-    "project_region_label": "Europe",
-    "project_title": "My Platform project",
-    "project_ui": "https://eu.platform.sh/#/projects/azertyuiop",
-    "status": "active",
-    "storage": 5120,
-    "user_licenses": "1"
+    }
 }
 ```
 
@@ -114,7 +108,7 @@ Status: 200 OK
     "project_ui": null,
     "_links": {
         "self": {
-            "href": "https:\/\/marketplace.internal.c-g.io\/api\/platform\/subscriptions\/1234"
+            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions\/1234"
         }
     }
 }
@@ -153,14 +147,17 @@ Status: 200 OK
     "environments": 3,
     "storage": 5120,
     "user_licenses": 1,
-    "project_id": null,
+    "project_id": "azertyuiop",
     "project_title": "Example Project",
     "project_region":"eu_west",
     "project_region_label": "EU (West)",
-    "project_ui": null,
+    "project_ui": "https://eu.platform.sh/#/projects/azertyuiop",
     "_links": {
+        "project": {
+            "href": "https://eu.platform.sh/api/projects/azertyuiop"
+        },
         "self": {
-            "href": "https:\/\/marketplace.internal.c-g.io\/api\/platform\/subscriptions\/1234"
+            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions\/1234"
         }
     }
 }
