@@ -2,7 +2,7 @@
 
 ## List your subscriptions
 
-> GET /subscriptions
+> GET /api/platform/subscriptions
 
 ### Response
 
@@ -30,7 +30,7 @@ Status: 200 OK
 
 ## Get a single subscription
 
-> GET /subscriptions/:id
+> GET /api/platform/subscriptions/:id
 
 ### Response
 
@@ -64,7 +64,7 @@ Status: 200 OK
 
 ## Create a new subscription
 
-> POST /subscriptions
+> POST /api/platform/subscriptions
 
 ### Parameters
 
@@ -116,7 +116,7 @@ Status: 200 OK
 
 ## Update an existing subscription
 
-> PATCH /subscriptions/:id
+> PATCH /api/platform/subscriptions/:id
 
 ### Parameters
 
@@ -165,7 +165,7 @@ Status: 200 OK
 
 ## Delete a subscription
 
-> DELETE /subscriptions/:id
+> DELETE /api/platform/subscriptions/:id
 
 ### Response
 
