@@ -1,6 +1,6 @@
 # Introduction
 
-This book is documenting the Platform.sh Provisioning API. This API allows a user which has a proper access token, to programmatically subscribe to Platform.sh and manage his subscriptions via a REST API.
+This book documents the Platform.sh Subscriptions API. This API allows a user which has a proper access token to programmatically subscribe to Platform.sh and manage their subscriptions via a REST API.
 
 # Current version
 

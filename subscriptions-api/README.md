@@ -1,4 +1,4 @@
-# Provisioning API
+# Subscriptions API
 
 ## List your subscriptions
 
