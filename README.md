@@ -13,5 +13,5 @@ The ``output-subscriptions.json`` file can be used to compare with the live API 
 It's been generated using the following command:
 
 ```bash
-curl -H "Authorization: Bearer TOKEN" https://marketplace.commerceguys.com/api/platform/subscriptions -X OPTIONS | python -mjson.tool
+curl -H "Authorization: Bearer TOKEN" https://accounts.platform.sh/api/platform/subscriptions -X OPTIONS | python -mjson.tool
 ```
