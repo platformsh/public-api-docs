@@ -18,11 +18,11 @@ Status: 200 OK
     "_links": {
         "self": {
             "title": "Self",
-            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions"
+            "href": "https:\/\/accounts.platform.sh\/api\/platform\/subscriptions"
         },
         "next": {
             "title": "Next",
-            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions?page=2"
+            "href": "https:\/\/accounts.platform.sh\/api\/platform\/subscriptions?page=2"
         }
     }
 }
@@ -56,7 +56,7 @@ Status: 200 OK
             "href": "https://eu.platform.sh/api/projects/azertyuiop"
         },
         "self": {
-            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions\/1234"
+            "href": "https:\/\/accounts.platform.sh\/api\/platform\/subscriptions\/1234"
         }
     }
 }
@@ -108,7 +108,7 @@ Status: 200 OK
     "project_ui": null,
     "_links": {
         "self": {
-            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions\/1234"
+            "href": "https:\/\/accounts.platform.sh\/api\/platform\/subscriptions\/1234"
         }
     }
 }
@@ -157,7 +157,7 @@ Status: 200 OK
             "href": "https://eu.platform.sh/api/projects/azertyuiop"
         },
         "self": {
-            "href": "https:\/\/marketplace.commerceguys.com\/api\/platform\/subscriptions\/1234"
+            "href": "https:\/\/accounts.platform.sh\/api\/platform\/subscriptions\/1234"
         }
     }
 }
