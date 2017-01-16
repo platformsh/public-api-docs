@@ -1,0 +1,142 @@
+{
+    "end": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The end timestamp of this plan record (ISO 8601).",
+            "label": "",
+            "name": "End date and time"
+        }
+    },
+    "plan": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The plan machine name.",
+            "label": "",
+            "name": "Plan"
+        }
+    },
+    "plan_record_id": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The unique ID of this plan record.",
+            "label": "",
+            "name": "Plan record ID"
+        }
+    },
+    "sku": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The raw SKU (stock keeping unit) of the plan product.",
+            "label": "",
+            "name": "SKU"
+        }
+    },
+    "start": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The start timestamp of this plan record (ISO 8601).",
+            "label": "",
+            "name": "Start date and time"
+        }
+    },
+    "status": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The status of the subscription for this plan record.",
+            "label": "",
+            "name": "Subscription status"
+        }
+    },
+    "subscription_id": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The ID of the subscription.",
+            "label": "",
+            "name": "Subscription ID"
+        }
+    }
+}
