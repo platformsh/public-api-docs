@@ -1,0 +1,142 @@
+{
+    "end": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The end timestamp of this usage record (ISO 8601).",
+            "label": "",
+            "name": "End date and time"
+        }
+    },
+    "plan_record_id": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The plan record relating to this usage record.",
+            "label": "",
+            "name": "Plan record ID"
+        }
+    },
+    "quantity": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The quantity used.",
+            "label": "",
+            "name": "Quantity"
+        }
+    },
+    "start": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The start timestamp of this usage record (ISO 8601).",
+            "label": "",
+            "name": "Start date and time"
+        }
+    },
+    "subscription_id": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The ID of the subscription.",
+            "label": "",
+            "name": "Subscription record ID"
+        }
+    },
+    "usage_group": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "string"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The type of usage that this record represents.",
+            "label": "",
+            "name": "Usage group"
+        }
+    },
+    "usage_record_id": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The unique ID of this usage record.",
+            "label": "",
+            "name": "Usage record ID"
+        }
+    }
+}
