@@ -1,17 +1,13 @@
-# Introduction
+# Platform.sh subscription API
 
-This book documents the Platform.sh Subscriptions API. This API allows a user which has a proper access token to programmatically subscribe to Platform.sh and manage their subscriptions via a REST API.
+Documentation for the Platform.sh subscription API. This API allows a user which has a proper access token to programmatically subscribe to Platform.sh and manage their subscriptions via a REST API.
 
-# Current version
+## Generate the JSON output
 
-The current version is not yet stable.
+The JSON output file can be used to compare with the live API and update the documentation with the possible changes.
 
-# Generate the JSON output
-
-The ``output-subscriptions.json`` file can be used to compare with the live API and update the documentation with the possible changes.
-
-It's been generated using the following command:
+It has been generated using the following command:
 
 ```bash
-curl -H "Authorization: Bearer TOKEN" https://accounts.platform.sh/api/platform/subscriptions -X OPTIONS | python -mjson.tool
+curl -H "Authorization: Bearer $TOKEN" $ENDPOINT -X OPTIONS | python -m json.tool
 ```
