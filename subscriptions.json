@@ -1,0 +1,1131 @@
+{
+    "_links": {
+        "next": {
+            "href": "https://accounts.platform.sh/api/platform/subscriptions?page=2",
+            "title": "Next"
+        },
+        "self": {
+            "href": "https://accounts.platform.sh/api/platform/subscriptions",
+            "title": "Self"
+        }
+    },
+    "count": 80,
+    "subscriptions": [
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/375370"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 375370,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "small",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://nl-1.platform.sh/api/projects/bejgtyuhpvqwu"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/366175"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 366175,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": "bejgtyuhpvqwu",
+            "project_region": "nl-1.platform.sh",
+            "project_region_label": "NL 1 Azure",
+            "project_title": "Drupal 8 on Azure",
+            "project_ui": "https://nl-1.platform.sh/#/projects/bejgtyuhpvqwu",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/365872"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 365872,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/354430"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 354430,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/3l6b5ep4ulezm"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/348715"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 348715,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "small",
+            "project_id": "3l6b5ep4ulezm",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Platform.sh | Timezone.io",
+            "project_ui": "https://eu.platform.sh/#/projects/3l6b5ep4ulezm",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/347674"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 347674,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/2ezcaryttt55y"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/346009"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 346009,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "2ezcaryttt55y",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Magento Cloud with Composer custom",
+            "project_ui": "https://eu.platform.sh/#/projects/2ezcaryttt55y",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/284858"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 284858,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/284801"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 284801,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/284798"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 284798,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/ag6xuujri62mk"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/280793"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "6",
+            "id": 280793,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "ag6xuujri62mk",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Demo Store",
+            "project_ui": "https://eu.platform.sh/#/projects/ag6xuujri62mk",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "0"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://us.platform.sh/api/projects/7fqsqhufrpmvy"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/278719"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 278719,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "7fqsqhufrpmvy",
+            "project_region": "us.platform.sh",
+            "project_region_label": "United States",
+            "project_title": "Open Social Demo",
+            "project_ui": "https://us.platform.sh/#/projects/7fqsqhufrpmvy",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/278266"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 278266,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/277732"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 277732,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/277729"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 277729,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/277717"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 277717,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/276004"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 276004,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/ukum6bics6gtw"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/251548"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 251548,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "ukum6bics6gtw",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "drupal-on-steroids",
+            "project_ui": "https://eu.platform.sh/#/projects/ukum6bics6gtw",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/jfvj7jrlohn74"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/251182"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "9",
+            "id": 251182,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "jfvj7jrlohn74",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "demo-drupal-blackfire",
+            "project_ui": "https://eu.platform.sh/#/projects/jfvj7jrlohn74",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/251179"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 251179,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/5jr6o7n6p2ni4"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/235990"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 235990,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "5jr6o7n6p2ni4",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Magento 2 EE",
+            "project_ui": "https://eu.platform.sh/#/projects/5jr6o7n6p2ni4",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/216295"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 216295,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/dnjtyigy5yneo"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/211441"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 211441,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "dnjtyigy5yneo",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Sulu",
+            "project_ui": "https://eu.platform.sh/#/projects/dnjtyigy5yneo",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/jy6hbrg3xleju"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/193060"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 193060,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "jy6hbrg3xleju",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "EZ Publish",
+            "project_ui": "https://eu.platform.sh/#/projects/jy6hbrg3xleju",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/186565"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 186565,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "provisioning failure",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/180826"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 180826,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/166735"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 166735,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/136420"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 136420,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "us.platform.sh",
+            "project_region_label": "United States",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/132571"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 132571,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "medium",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/gez4vm7vbxduw"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/111835"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 111835,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "gez4vm7vbxduw",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Drupal 8 & Blackfire",
+            "project_ui": "https://eu.platform.sh/#/projects/gez4vm7vbxduw",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/110428"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 110428,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/5rtr3pfbqkuak"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/105985"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "6",
+            "id": 105985,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "5rtr3pfbqkuak",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "GuGuss Slides",
+            "project_ui": "https://eu.platform.sh/#/projects/5rtr3pfbqkuak",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/jelww74moebzk"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/82801"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "6",
+            "id": 82801,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "jelww74moebzk",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "CloudWatt | Kickstart",
+            "project_ui": "https://eu.platform.sh/#/projects/jelww74moebzk",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/zi7hlajx3ihoq"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/80605"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 80605,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": "zi7hlajx3ihoq",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Platform.sh | Chat",
+            "project_ui": "https://eu.platform.sh/#/projects/zi7hlajx3ihoq",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "0"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://us.platform.sh/api/projects/cepxxzdplhzug"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/77212"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 77212,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "cepxxzdplhzug",
+            "project_region": "us.platform.sh",
+            "project_region_label": "United States",
+            "project_title": "Drupal Commerce 2.x Project Base",
+            "project_ui": "https://us.platform.sh/#/projects/cepxxzdplhzug",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "0"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://us.platform.sh/api/projects/vbc5ow7slcv7i"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/73864"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 73864,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "vbc5ow7slcv7i",
+            "project_region": "us.platform.sh",
+            "project_region_label": "United States",
+            "project_title": "CiviCRM + Drupal 8",
+            "project_ui": "https://us.platform.sh/#/projects/vbc5ow7slcv7i",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/ww4rb5tyg6lkm"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/70297"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 70297,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": "ww4rb5tyg6lkm",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Sylius eCommerce Demo",
+            "project_ui": "https://eu.platform.sh/#/projects/ww4rb5tyg6lkm",
+            "services": [],
+            "status": "active",
+            "storage": 15360,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/tygnpc5ccumme"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/66279"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "9",
+            "id": 66279,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "tygnpc5ccumme",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Demo NP8",
+            "project_ui": "https://eu.platform.sh/#/projects/tygnpc5ccumme",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "5"
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/lrdeqwar53rsa"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/63516"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 63516,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "lrdeqwar53rsa",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Wordpress",
+            "project_ui": "https://eu.platform.sh/#/projects/lrdeqwar53rsa",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/34174"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 34174,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/27067"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 27067,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/32royntwogcis"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/26851"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 26851,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": "32royntwogcis",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "OroCommerce",
+            "project_ui": "https://eu.platform.sh/#/projects/32royntwogcis",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/26242"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 26242,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/ijtxpsladv67o"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/22693"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "21",
+            "id": 22693,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": "ijtxpsladv67o",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Blackfire Demo",
+            "project_ui": "https://eu.platform.sh/#/projects/ijtxpsladv67o",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "3"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/20500"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 20500,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/18712"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 18712,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "project": {
+                    "href": "https://eu.platform.sh/api/projects/qna2tr3kkdjr6"
+                },
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/12552"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": "3",
+            "id": 12552,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "standard",
+            "project_id": "qna2tr3kkdjr6",
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "Platform.sh | Enterprise Docs",
+            "project_ui": "https://eu.platform.sh/#/projects/qna2tr3kkdjr6",
+            "services": [],
+            "status": "active",
+            "storage": 5120,
+            "user_licenses": "1"
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/12361"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 12361,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": null,
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/11677"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 11677,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "platformsh-docs",
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://accounts.platform.sh/api/platform/subscriptions/11673"
+                }
+            },
+            "enterprise_tag": null,
+            "environments": 0,
+            "id": 11673,
+            "owner": "766e306d-0f9a-4d38-b22f-cc6c5f070a14",
+            "plan": "development",
+            "project_id": null,
+            "project_region": "eu.platform.sh",
+            "project_region_label": "Europe",
+            "project_title": "motivation-call-website",
+            "project_ui": null,
+            "services": [],
+            "status": "requested",
+            "storage": 0,
+            "user_licenses": 0
+        }
+    ]
+}
