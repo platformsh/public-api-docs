@@ -19,6 +19,26 @@
             "name": "End date and time"
         }
     },
+    "id": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The unique ID of this plan record.",
+            "label": "",
+            "name": "Plan record ID"
+        }
+    },
     "plan": {
         "data": {
             "cardinality": 1,
@@ -37,26 +57,6 @@
             "description": "The plan machine name.",
             "label": "",
             "name": "Plan"
-        }
-    },
-    "plan_record_id": {
-        "data": {
-            "cardinality": 1,
-            "read_only": true,
-            "required": false,
-            "type": "int"
-        },
-        "form_element": {
-            "allowed_values": null,
-            "default_value": "",
-            "placeholder": "",
-            "size": null,
-            "type": null
-        },
-        "info": {
-            "description": "The unique ID of this plan record.",
-            "label": "",
-            "name": "Plan record ID"
         }
     },
     "sku": {
