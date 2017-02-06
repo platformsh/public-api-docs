@@ -19,7 +19,27 @@
             "name": "End date and time"
         }
     },
-    "plan_record_id": {
+    "id": {
+        "data": {
+            "cardinality": 1,
+            "read_only": true,
+            "required": false,
+            "type": "int"
+        },
+        "form_element": {
+            "allowed_values": null,
+            "default_value": "",
+            "placeholder": "",
+            "size": null,
+            "type": null
+        },
+        "info": {
+            "description": "The unique ID of this usage record.",
+            "label": "",
+            "name": "Usage record ID"
+        }
+    },
+    "plan_record": {
         "data": {
             "cardinality": 1,
             "read_only": true,
@@ -36,7 +56,7 @@
         "info": {
             "description": "The plan record relating to this usage record.",
             "label": "",
-            "name": "Plan record ID"
+            "name": "Plan record"
         }
     },
     "quantity": {
@@ -117,26 +137,6 @@
             "description": "The type of usage that this record represents.",
             "label": "",
             "name": "Usage group"
-        }
-    },
-    "usage_record_id": {
-        "data": {
-            "cardinality": 1,
-            "read_only": true,
-            "required": false,
-            "type": "int"
-        },
-        "form_element": {
-            "allowed_values": null,
-            "default_value": "",
-            "placeholder": "",
-            "size": null,
-            "type": null
-        },
-        "info": {
-            "description": "The unique ID of this usage record.",
-            "label": "",
-            "name": "Usage record ID"
         }
     }
 }
