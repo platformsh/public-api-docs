@@ -79,6 +79,10 @@ Used to get plan records for a single product sku. Available options are:
 }
 ```
 
+You can also filter per sku matching:
+
+> GET /api/platform/records/plan?filter[sku][value]=STAND&filter[sku][operator]=CONTAINS
+
 ## Usage
 
 ### List all usage records
@@ -190,8 +194,8 @@ Status: 200 OK
 }
 ```
 
-?filter[sku][value]=STAND&filter[sku][operator]=CONTAINS - SKU search match
 ?filter[start]=2015-01-01T00:00:00 - Gets any records that overlap with the time period 2015 or later
 ?filter[end]=2016-01-01T00:00:00 - Gets any records that overlap with the time period before 2016
 ?filter[start]=2015-01-01T00:00:00&filter[end]=2016-01-01T00:00:00 - Gets any record which overlaps with the year 2015 in some way
+
 ?filter[usage_group][value][0]=storage&filter[usage_group][value][1]=environments&filter[usage_group][operator]=IN - Get all usage records of both types
