@@ -39,6 +39,46 @@ Status: 200 OK
 }
 ```
 
+### Get plan records for a specifiv product SKU
+
+Used to get plan records for a single product sku. Available options are:
+* `PLATFORM-ENVIRONMENT-DEVELOPMENT`
+* `PLATFORM-ENVIRONMENT-SMALL`
+* `PLATFORM-ENVIRONMENT-STANDARD`
+* `PLATFORM-ENVIRONMENT-LARGE`
+
+> GET /api/platform/records/plan?filter[slu]=:sku
+
+*Response*
+
+```http
+{
+    "_links": {
+        "next": {
+            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan?filter[sku]=PLATFORM-ENVIRONMENT-MEDIUM&page=2",
+            "title": "Next"
+        },
+        "self": {
+            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan",
+            "title": "Self"
+        }
+    },
+    "count": 541,
+    "plan": [
+        {
+            "end": "2014-05-31T13:05:32+02:00",
+            "id": "5670",
+            "plan": "medium",
+            "sku": "PLATFORM-ENVIRONMENT-MEDIUM",
+            "start": "2014-05-31T01:44:32+02:00",
+            "status": "provisioning",
+            "subscription_id": "4506"
+        },
+        ...
+    }
+}
+```
+
 ## Usage
 
 ### List all usage records
@@ -149,3 +189,9 @@ Status: 200 OK
     ]
 }
 ```
+
+?filter[sku][value]=STAND&filter[sku][operator]=CONTAINS - SKU search match
+?filter[start]=2015-01-01T00:00:00 - Gets any records that overlap with the time period 2015 or later
+?filter[end]=2016-01-01T00:00:00 - Gets any records that overlap with the time period before 2016
+?filter[start]=2015-01-01T00:00:00&filter[end]=2016-01-01T00:00:00 - Gets any record which overlaps with the year 2015 in some way
+?filter[usage_group][value][0]=storage&filter[usage_group][value][1]=environments&filter[usage_group][operator]=IN - Get all usage records of both types
