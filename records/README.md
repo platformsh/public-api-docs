@@ -15,11 +15,11 @@ Status: 200 OK
 {
     "_links": {
         "next": {
-            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan?page=2",
+            "href": "https://accounts.sensio.cloud/api/platform/records/plan?page=2",
             "title": "Next"
         },
         "self": {
-            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan",
+            "href": "https://accounts.sensio.cloud/api/platform/records/plan",
             "title": "Self"
         }
     },
@@ -47,7 +47,7 @@ Used to get plan records for a single product sku. Available options are:
 * `PLATFORM-ENVIRONMENT-STANDARD`
 * `PLATFORM-ENVIRONMENT-LARGE`
 
-> GET /api/platform/records/plan?filter[slu]=:sku
+> GET /api/platform/records/plan?filter[sku]=:sku
 
 *Response*
 
@@ -55,11 +55,11 @@ Used to get plan records for a single product sku. Available options are:
 {
     "_links": {
         "next": {
-            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan?filter[sku]=PLATFORM-ENVIRONMENT-MEDIUM&page=2",
+            "href": "https://accounts.sensio.cloud/api/platform/records/plan?filter[sku]=PLATFORM-ENVIRONMENT-MEDIUM&page=2",
             "title": "Next"
         },
         "self": {
-            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan",
+            "href": "https://accounts.sensio.cloud/api/platform/records/plan",
             "title": "Self"
         }
     },
@@ -98,11 +98,11 @@ Status: 200 OK
 {
     "_links": {
         "next": {
-            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/usage?page=2",
+            "href": "https://accounts.sensio.cloud/api/platform/records/usage?page=2",
             "title": "Next"
         },
         "self": {
-            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/usage",
+            "href": "https://accounts.sensio.cloud/api/platform/records/usage",
             "title": "Self"
         }
     },
@@ -111,7 +111,7 @@ Status: 200 OK
         {
             "_links": {
                 "plan": {
-                    "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan/5590"
+                    "href": "https://accounts.sensio.cloud/api/platform/records/plan/5590"
                 }
             },
             "end": "2015-09-21T12:01:37+02:00",
@@ -142,7 +142,7 @@ Status: 200 OK
 {
     "_links": {
         "self": {
-            "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/usage",
+            "href": "https://accounts.sensio.cloud/api/platform/records/usage",
             "title": "Self"
         }
     },
@@ -151,7 +151,7 @@ Status: 200 OK
         {
             "_links": {
                 "plan": {
-                    "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan/6102"
+                    "href": "https://accounts.sensio.cloud/api/platform/records/plan/6102"
                 }
             },
             "end": "2014-10-16T17:22:01+02:00",
@@ -165,7 +165,7 @@ Status: 200 OK
         {
             "_links": {
                 "plan": {
-                    "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan/6102"
+                    "href": "https://accounts.sensio.cloud/api/platform/records/plan/6102"
                 }
             },
             "end": "2014-10-16T17:22:01+02:00",
@@ -179,7 +179,7 @@ Status: 200 OK
         {
             "_links": {
                 "plan": {
-                    "href": "https://records-api-ime4zei-p43m25zns6k2c.eu.platform.sh/api/platform/records/plan/6102"
+                    "href": "https://accounts.sensio.cloud/api/platform/records/plan/6102"
                 }
             },
             "end": "2014-10-16T17:22:01+02:00",
